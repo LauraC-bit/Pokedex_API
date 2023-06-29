@@ -1,0 +1,40 @@
+html {
+  font-size: 62.5%;
+  min-height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#body {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0;
+  line-height: 1.618;
+  font-size: calc(1.2rem + 0.6vmin);
+}
+#body ul {
+  display: flex;
+  align-items: center;
+  padding: 10;
+  flex-wrap: wrap;
+}
+#body ul li {
+  background-repeat: no-repeat;
+  flex: 1 0;
+  min-width: 300px;
+  max-width: 350px;
+  min-height: 100px;
+  padding: 20px;
+  list-style-type: none;
+}
+#body ul li p:last-child span {
+  display: flex;
+}
+#body ul li div {
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=index.css.map */
